@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style..css">
+    <script src="code.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="zen-wrapper">
+        <h1>Zen textarea</h1>
+
+        <form>
+
+            <label for="comment">What&rsquo;s on your mind?</label>
+            <div class="zennable">
+                <input type="checkbox" id="zen-toggle-comment" tabindex="-1">
+                <div class="zen-backdrop">
+                    <textarea id="comment" name="comment" placeholder="Leave a comment"></textarea>
+                    <label for="zen-toggle-comment" class="expander">Expand</label>
+                    <label for="zen-toggle-comment" class="shrinker">Shrink</label>
+                </div>
+            </div>
+
+            <button type="submit">
+            Submit comment
+        </button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
